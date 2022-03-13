@@ -1,20 +1,28 @@
+/* changes the fonts of the headers, if the 1st font is unavailable, it switches to the 2nd font  */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Times New Roman, Georgia, Garamond;
 }
+
+/* adds space between the 1st picture and the 3rd header */
 
 h3 {
   margin: 40px;
 }
 
+/* adds a background color to the 1st and 2nd header*/
+
 h1, h2 {
     background-color: #99ffd5;
 }
 
+/* makes the headers bigger */
+
 h3, h4, h5, h6 {
     font-size: 24;
-    font-weight: 700;
 }
 
+/* makes the body have space on the left and right sides and switches the font */
 
 body {   
     padding-right: 500px;  
@@ -23,31 +31,16 @@ body {
     text-align: left;
 }
 
+/* aligns the header to the center */
+
 header {
     text-align: center;
 }
+
+/* makes the footer taller, adds a background color, and aligns it to the center */
 
 footer {
     height: 30px;
     background-color: #99ffd5;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.btn {
-  display: inline-block;
-  font-family: arial, sans-serif;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px;
-  padding: 6px 12px;
-  border-radius: 6px;
 }
